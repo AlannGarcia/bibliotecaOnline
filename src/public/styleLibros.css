@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: #E0C3FC; 
+    background: -webkit-linear-gradient(to right, #E0C3FC, #8EC5FC); 
+    background: linear-gradient(to right, #E0C3FC, #8EC5FC);
+}
+
+.container{
+    margin-top: 30px;
+    font-family: 'Cormorant SC', serif;
+    font-weight: bold;
+}
+
+.tituloL{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.autorL{
+    font-weight: bold;
+    font-size: 22px;
+    font-style: italic;
+}
+
+.car{
+    height: 350px;
+    -webkit-box-shadow: 3px 2px 14px 4px rgba(0,0,0,0.51); 
+    box-shadow: 3px 2px 14px 4px rgba(0,0,0,0.51);
+    transition: transform .2s;
+    cursor: pointer;
+}
+
+.car:hover{
+    transform: scale(1.15);
+}
